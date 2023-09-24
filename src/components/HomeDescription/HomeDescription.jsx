@@ -14,7 +14,7 @@ export const HomeDescription = () => {
     const isLoggedIn = useSelector(getIsLoggedIn);
     return (
         <HomeContainer>
-            <Img src={phone} alt='phone' width='200' height='300' />
+            <Img src={phone} alt='phone' width='300' height='200' />
             <HomeTextContainer>
                 <Section title={'Phonebook'}>
                     <p>All your contacts are in a safe place</p>
