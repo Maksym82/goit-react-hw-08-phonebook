@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { register } from 'redux/auth/auth-operations';
-
+import { Form, Label, Input, Button } from './RegisterForm.styled';
 import { getError } from 'redux/auth/auth-selectors';
 import { getNotification } from 'components/helped/getNotificatin';
 
