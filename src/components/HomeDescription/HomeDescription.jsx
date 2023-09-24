@@ -4,7 +4,11 @@ import { getIsLoggedIn } from 'redux/auth/auth-selectors';
 import phone from '../../images/phone.jpg';
 import { Section } from 'components/Section/Section';
 import { AuthNav } from 'components/AuthNavigation/AuthNavigation.styled';
-
+import { AuthLinkHome,
+    HomeContainer,
+    HomeTextContainer,
+    Img,
+} from './HomeDescription.styled';
 
 export const HomeDescription = () => {
     const isLoggedIn = useSelector(getIsLoggedIn);
