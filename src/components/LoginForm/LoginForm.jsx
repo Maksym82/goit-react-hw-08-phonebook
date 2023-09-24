@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useDispatch } from "react-redux";
 
 import { logIn } from 'redux/auth/auth-operations';
-
+import { Form, Input, Label, Button } from './LoginForm.styled';
 
 export const LoginForm = () => {
     const dispatch = useDispatch();
