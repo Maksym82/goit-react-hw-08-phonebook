@@ -6,6 +6,7 @@ export const HomeContainer = styled.div`
   text-align: center;
   display: flex;
   gap: 30px;
+
 `;
 
 export const Img = styled.img`
