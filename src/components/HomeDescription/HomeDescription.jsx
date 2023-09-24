@@ -16,11 +16,10 @@ export const HomeDescription = () => {
                     <p>All your contacts are in a safe place</p>
                     {!isLoggedIn && (
                         <>
-                        <p>Join Us Today!</p>
-                        <AuthNav>
-                            <AuthLinkHome to="/register">Register</AuthLinkHome>
-                            <AuthLinkHome to="/login">Log In</AuthLinkHome>
-                        </AuthNav>
+                            <AuthNav>
+                                <AuthLinkHome to="/register">Register</AuthLinkHome>
+                                <AuthLinkHome to="/login">Log In</AuthLinkHome>
+                            </AuthNav>
                         </>
                     )}
                 </Section>
