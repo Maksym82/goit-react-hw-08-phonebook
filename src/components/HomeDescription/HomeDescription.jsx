@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 
 import { getIsLoggedIn } from 'redux/auth/auth-selectors';
-import phone from '../../images/phone.jpg';
+import phone from '../../images/fon2.jpg';
 import { Section } from 'components/Section/Section';
 import { AuthNav } from 'components/AuthNavigation/AuthNavigation.styled';
 import { AuthLinkHome,
