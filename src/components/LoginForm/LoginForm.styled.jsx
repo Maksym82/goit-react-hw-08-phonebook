@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const Form = styled.form`
-  max-width: 350px;
+  width: 400px;
   margin: 0 auto;
   padding: 10px;
   border: 1px solid gray;
@@ -25,8 +25,7 @@ export const Label = styled.label`
 `;
 
 export const Input = styled.input`
-  max-width: 300px;
-  width: 100%;
+  width: 300px;
   height: 30px;
   border-radius: 8px;
   font-size: 16px;

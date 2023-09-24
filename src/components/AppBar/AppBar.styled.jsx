@@ -21,6 +21,8 @@ export const UserMenu = styled.div`
   display: flex;
   gap: 20px;
   align-items: center;
+  margin-right: 45px;
+  
 `;
 
 export const User = styled.p`

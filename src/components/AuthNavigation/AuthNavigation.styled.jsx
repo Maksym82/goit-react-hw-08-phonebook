@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 export const AuthNav = styled.div`
   display: flex;
   gap: 20px;
+  margin-right: 30px;
 `;
 
 export const AuthLink = styled(NavLink)`

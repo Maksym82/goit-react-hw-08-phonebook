@@ -23,7 +23,7 @@ export const FormLabel = styled.label`
 
 export const FormInput = styled.input`
   max-width: 300px;
-  width: 100%;
+ 
   height: 30px;
   border-radius: 8px;
   font-size: 20px;
