@@ -6,6 +6,6 @@ export const Main = styled.main`
     justify-content: space-around;
   }
   padding: 0 15px;
-  padding-top: 80px;
+  padding-top: 190px;
   margin: 0 auto;
 `;
